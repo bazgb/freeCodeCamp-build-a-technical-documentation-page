@@ -1,0 +1,31 @@
+#container {
+  background-color: aquamarine;
+
+}
+
+#navbar {
+  background-color: blueviolet;
+  position: fixed;
+  height: 100%;
+  width: 250px;
+}
+
+#main-doc {
+  background-color: chocolate;
+  margin-left: 250px;
+}
+
+@media (max-width: 800px) {
+  #navbar {
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 250px;
+  }
+  #main-doc {
+    margin-left: 0px;
+    margin-top: 250px;
+  }
+}
