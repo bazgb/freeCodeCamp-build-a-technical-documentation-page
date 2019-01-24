@@ -15,6 +15,10 @@
   overflow: scroll;
 }
 
+.main-section {
+  padding-bottom: 30spx;
+}
+
 #main-doc {
   background-color: whitesmoke;
   margin-left: 250px;
@@ -56,14 +60,26 @@ nav header {
 }
 
 p {
+  margin: 15px;
+}
 
+ul {
+  list-style: square;
+}
+
+li {
+  margin: 15px;
+  margin-left: 45px;
 }
 
 code {
-  display: inline-block;
+  display: block;
   color: yellowgreen;
   background-color: darkslategray;
   padding: 5px;
+  padding-left: 15px;
+  white-space: pre;
+  line-height: 2em;
 }
 
 @media (max-width: 800px) {
