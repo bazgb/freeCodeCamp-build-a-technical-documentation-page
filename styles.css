@@ -49,10 +49,17 @@
   font-weight: bold;
 }
 
+.nav-link:nth-child(2) {
+  margin-top:54px;
+}
+
 #header-container {
   display: block;
   background-color: black;
   padding: 15px;
+  position: fixed;
+  width: 220px;
+  height: 24px;
 }
 
 nav header {
@@ -94,8 +101,13 @@ code {
     border-bottom-width: 2px;
     border-bottom-style: solid;
   }
+
   #main-doc {
     margin-left: 0px;
     margin-top: 200px;
+  }
+  
+  #header-container {
+    width: 100%;
   }
 }
