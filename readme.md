@@ -6,3 +6,4 @@
 - CSS
 - Responsive design
 - Media queries
+- Google Fonts
